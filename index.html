@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Italianno|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2f6d6ac6fe.js" crossorigin="anonymous"></script>
+    <link rel ="stylesheet" href="estilos.css">
+<br>
+<title> MI PORTAFOLIO - Cynthia Gomez Montoya</title>
+</head>
+</br>
+<body>
+   
+    <div class="contenedor">
+         <header>
+             <div class="logo">
+                 <h1>Cynthia Gómez Montoya</h1>
+                 <br>
+                   <p>    Front end Developer    </p>
+             </br>
+             </div>
+
+             <div class="categorias"  id="categorias">
+                <a href= "#" class="activo">todos</a> 
+                <a href= "#">sobre mi</a>
+                <a href= "#">trabajos</a>
+                <a href= "#">contacto</a>
+             </div>
+         </header>
+         <section class="grid" id="grid">
+          <div class="item" 
+             data-categoria="sobre mi"
+             data-etiquetas="nombre "
+             data-descripcion="Hola,Soy desarrolla Front End.Actualmente estudiante de Laboratoria,desde que conocí el mundo de la programación, encontré una forma de desarrollar mis habilidades de creatividad , ocupar mi lógica y resolver problemas ."
+          >
+            <div class="item-contenido">
+              <img src="img/4.jpg" alt="">
+            </div>
+          </div>
+    
+        <div class="item"
+          data-categoria="trabajos"
+				 data-etiquetas="contacto trabajos persona "
+         data-descripcion="Algunos de mis trabajos son :"
+        >
+          <div class="item-contenido">
+            <img src="img/laboratoria.png" alt="">
+          </div>
+        </div>
+          </section>
+  </div>
+            </section>
+            <section class="overlay" id="overlay">
+              <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <img src="" alt="">
+              </div>
+              <p class="descripcion"></p>
+            </section>
+            <footer class="contenedor">
+              <div class="redes-sociales">
+                <div class="contenedor-icono">
+                  <a href="https://github.com/cynthiagomezmontoya" target="_blank" class="github">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+                <div class="contenedor-icono">
+                  <a href="http://www.linkedin.com/in/cynthia-gomez-montoya" target="_blank" class="linkedin">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </div>
+                <div class="contenedor-icono">
+                  <a href="https://www.canva.com/design/DADnuTl3og0/8RETEv0TQ6Xa-bmEoHCZ8w/view?utm_content=DADnuTl3og0&utm_campaign=designshare&utm_medium=link&utm_source=viewer" target="_blank" class="card">
+                    <i class="fas fa-address-card"></i>
+                  </a>
+                </div>
+                
+            </footer>
+    </div>
+
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
